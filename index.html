@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/2475eea6ce.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="dist/output.css">
+  <title>PortoFolio</title>
+</head>
+
+<body class="bg-gray-800 font-Lato">
+  <!-- navbar start -->
+  <nav
+    class="fixed z-40 flex flex-wrap items-center justify-between w-full px-4 py-4 text-lg text-white shadow-md md:py-0 backdrop-blur-sm">
+    <div>
+      <a href="#">
+        <h2 class="text-white">✌️SahrulBudaya</h2>
+      </a>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="w-6 h-6 text-white cursor-pointer md:hidden"
+      fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+    </svg>
+
+    <div class="hidden w-full bg-gray-700 md:flex md:items-center md:w-auto" id="menu">
+      <ul class="pt-4 text-base text-white md:flex md:justify-between md:pt-0">
+        <li>
+          <a class="md:p-4 nav-hover md:hover:scale-100 hover:text-purple-500 hover:scale-105 " href="#">Home</a>
+        </li>
+        <li>
+          <a class="md:p-4 nav-hover md:hover:scale-100 hover:text-purple-500 hover:scale-105 "
+            href="#portofolio">Potrofolio</a>
+        </li>
+        <li>
+          <a class="md:p-4 nav-hover md:hover:scale-100 hover:text-purple-500 hover:scale-105 "
+            href="#testimonial">Testimonial</a>
+        </li>
+        <li>
+          <a class="md:p-4 nav-hover md:hover:scale-100 hover:text-purple-500 hover:scale-105 " href="#about">About</a>
+        </li>
+        <li>
+          <a class="md:p-4 nav-hover md:hover:scale-100 hover:text-purple-500 hover:scale-105 "
+            href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- hero images start-->
+  <div class="grid justify-center h-screen grid-cols-1 gap-2 px-4 pt-16 md:px-10 md:grid-cols-3 md:pt-24 bg-slate-700">
+
+    <div class="flex flex-col gap-1 text-white sm:self-center md:py-12">
+
+      <h2 class="text-gray-300 md:text-lg">
+        i'm
+      </h2>
+
+      <h1 class="text-4xl font-extrabold md:text-6xl">
+        Sahrul
+        <span class="text-yellow-500">
+          Budaya
+        </span>
+      </h1>
+
+      <hr class="w-24">
+
+      <p class="text-xs text-gray-300 md:text-xl">
+
+        A freelancer who providers services for digital programming and design
+        content needs, for all businesses with more than 10 years experience.
+
+      </p>
+    </div>
+
+    <div class="row-span-2 md:col-start-2">
+      <img src="dist/Images/Hero-Images/landing-01.png" alt="hero"
+        class="bg-gray-900 rounded-full sm:w-60 sm:bg-red-500 md:bg-gray-900 md:w-full">
+
+    </div>
+
+    <!-- services -->
+    <div class="flex flex-col row-start-2 gap-1 md:px-4 sm:self-center md:col-start-3 md:row-start-1 md:py-12">
+      <h2 class="text-gray-500">
+        Services
+      </h2>
+      <h1 class="text-2xl text-gray-100">
+
+        Let's build quality products in programing and design
+        with my service.
+
+      </h1>
+      <a href="#" class="block text-yellow-500 active:text-gray-700">
+
+        Show more
+
+        <i class="px-2 fa-solid fa-arrow-right-long"></i>
+      </a>
+      <!-- sosical media -->
+      <div class="flex items-center gap-2 py-2">
+
+        <a href="#" class="block cursor-pointer">
+          <i class="sosmed-icon hover:bg-gray-300 hover:text-gray-800 hover:rotate-45 fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="block cursor-pointer">
+          <i class="sosmed-icon hover:bg-gray-300 hover:text-gray-800 hover:rotate-45 fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="block cursor-pointer">
+          <i class="sosmed-icon hover:bg-gray-300 hover:text-gray-800 hover:rotate-45 fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="block cursor-pointer">
+          <i class="sosmed-icon hover:bg-gray-300 hover:text-gray-800 hover:rotate-45 fa-brands fa-linkedin"></i>
+        </a>
+
+      </div>
+      <!-- sosial media end -->
+    </div>
+    <!-- services end -->
+  </div>
+  <!-- hero images end -->
+
+  <!-- tech logo -->
+  <section>
+    <div class="relative flex justify-center">
+      <div class="absolute flex justify-around gap-2 px-2 py-2 -top-4 bg-slate-400 md:-top-10 ">
+        <div class="block px-2 py-2 duration-500 hover:scale-105 ">
+          <img src="dist/Images/Tech-Logo/landing-10.png" alt="tech-logo"
+            class="px-4 py-2 duration-500 bg-gray-800 md:w-40 w-28">
+        </div>
+        <div class="block px-2 py-2 duration-500 hover:scale-105 ">
+          <img src="dist/Images/Tech-Logo/landing-11.png" alt="tech-logo"
+            class="px-4 py-2 duration-500 bg-gray-800 md:w-40 w-28">
+        </div>
+        <div class="block px-2 py-2 duration-500 hover:scale-105 ">
+          <img src="dist/Images/Tech-Logo/landing-12.png" alt="tech-logo"
+            class="px-4 py-2 duration-500 bg-gray-800 md:w-40 w-28">
+        </div>
+        <div class="block px-2 py-2 duration-500 hover:scale-105 ">
+          <img src="dist/Images/Tech-Logo/landing-13.png" alt="tech-logo"
+            class="px-4 py-2 duration-500 bg-gray-800 md:w-40 w-28">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- tech logo end -->
+
+  <!-- Portofolio  -->
+  <section>
+    <div class="grid h-screen grid-cols-1 gap-2 px-4 py-20 pt-20 md:pt-28 sm:grid-cols-2 md:px-10">
+
+      <div class="flex flex-col justify-center gap-2 sm:self-start">
+        <h1 class="text-2xl font-semibold text-slate-200 hover-underline-animation">
+
+          What Can I Do For Your Needs
+
+        </h1>
+        <p class="pt-1 text-xs text-slate-500 md:text-base">
+
+          it is easier to entrust the work for the experts
+          because the are able to provide the best results
+          with reliable quality
+
+        </p>
+        <div class="grid grid-cols-2 gap-2 py-4">
+          <div>
+            <h1 class="text-3xl font-semibold text-yellow-500 md:text-5xl">2
+              50+
+            </h1>
+            <p class="text-slate-300 hover-underline-animation">
+
+              Project Complieted
+
+            </p>
+          </div>
+          <div>
+
+            <h1 class="text-3xl font-semibold text-yellow-500 md:text-5xl">
+              100+
+            </h1>
+            <p class="text-slate-300 hover-underline-animation">
+              Comunity Network
+            </p>
+          </div>
+
+          <div>
+            <h1 class="text-3xl font-semibold text-yellow-500 md:text-5xl">
+              30+
+            </h1>
+            <p class="text-slate-300 hover-underline-animation">
+              Contract Remote
+            </p>
+          </div>
+
+          <div>
+            <h1 class="text-3xl font-semibold text-yellow-500 md:text-5xl">
+              10+
+            </h1>
+            <p class="text-slate-300 hover-underline-animation">
+              Years Experience
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-between gap-2 py-4">
+
+        <div class="flex items-center justify-between">
+
+          <div class="flex items-center">
+            <img src="dist/Images/Project-Images/landing-03.png" alt="porto"
+              class="object-cover object-center duration-500 w-28 md:w-64 h-28 md:h-32 hover:scale-105">
+            <div div class="px-4">
+              <h1 class="text-2xl font-medium text-gray-300 hover-underline-animation">
+                Ui/UX Design
+              </h1>
+              <h4 class="text-base text-gray-500">
+                117 Project
+              </h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-500">
+            <a href="#" class="block duration-500 cursor-pointer hover:scale-105 hover:text-indigo-500">
+              <i class="px-2 fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <hr class="w-full">
+
+        <div class="flex items-center justify-between">
+
+          <div class="flex items-center">
+            <img src="dist/Images/Project-Images/landing-04.png" alt="porto"
+              class="object-cover object-center duration-500 w-28 md:w-64 h-28 md:h-32 hover:scale-105">
+            <div class="px-4">
+              <h1 class="text-2xl font-medium text-gray-300 hover-underline-animation">
+                Front End Developer
+              </h1>
+              <h4 class="text-base text-gray-500">
+                88 Project</h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-500">
+            <a href="#" class="block duration-500 cursor-pointer hover:scale-105 hover:text-indigo-500">
+              <i class="px-2 fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <hr class="w-full">
+
+        <div class="flex items-center justify-between">
+
+          <div class="flex items-center">
+            <img src="dist/Images/Project-Images/landing-05.jpg" alt="porto"
+              class="object-cover object-center duration-500 w-28 md:w-64 h-28 md:h-32 hover:scale-105">
+            <div class="px-4">
+              <h1 class="text-2xl font-medium text-gray-300 hover-underline-animation">
+                Mobile App Developer
+              </h1>
+              <h4 class="text-base text-gray-500">
+                32 Project</h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-500">
+            <a href="#" class="block duration-500 cursor-pointer hover:scale-105 hover:text-indigo-500">
+              <i class="px-2 fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <hr class="w-full">
+
+      </div>
+    </div>
+  </section>
+  <!-- portofolio end -->
+
+  <!-- My Best Selected PortoFolio Start -->
+  <main class="h-96 bg-slate-700 sm:h-60">
+    <div class="relative">
+
+      <div class="absolute flex flex-wrap justify-center w-full gap-4 px-4 sm:justify-around -top-8 ">
+        <!-- Card 1 -->
+        <div class="duration-500 rounded-md bg-slate-600 aspect-[4/2] md:aspect-[5/4] md:py-8 xs:aspect-[2/3] 
+          h-40 sm:h-60 hover:outline hover:outline-offset-2 hover:outline-1 hover:translate-y-7 outline-purple-500">
+
+          <div class="flex items-center justify-center card1 hover:scale-105 hover:rotate-45">
+            <i class="text-2xl text-yellow-400 fa-brands fa-uikit"></i>
+          </div>
+
+          <h1 class="px-4 py-2 text-base font-medium text-white hover-underline-animation sm:text-2xl">
+            Ui/Ux Design
+          </h1>
+          <p class="px-4 text-xs text-slate-200 hover-underline-animation">
+            Create a beautiful and usefull
+            ui display for ease of use of
+            the application for users.
+          </p>
+
+        </div>
+        <!-- Card 2 -->
+        <div class="duration-500 rounded-md bg-slate-600 aspect-[4/2] md:aspect-[5/4] md:py-8
+        h-40 sm:h-60 hover:outline hover:outline-offset-2 hover:outline-1 hover:translate-y-7 outline-purple-500">
+
+          <div class="flex items-center justify-center card1 hover:scale-105 hover:rotate-45">
+            <i class="text-2xl text-yellow-400 fa-solid fa-blog"></i>
+          </div>
+
+          <h1 class="px-4 py-2 text-3xl font-medium text-white hover-underline-animation">
+            Web Programing
+          </h1>
+          <p class="px-4 text-sm text-slate-200 hover-underline-animation">
+            Build a quality website with the
+            best technology and optimization
+            on search engines.
+          </p>
+
+        </div>
+        <!-- Card 3 -->
+        <div class="duration-500 rounded-md bg-slate-600 aspect-[4/2] md:aspect-[5/4] md:py-8
+          h-40 sm:h-60 hover:outline hover:outline-offset-2 hover:outline-1 hover:translate-y-7 outline-purple-500">
+
+          <div class="flex items-center justify-center card1 hover:scale-105 hover:rotate-45">
+            <i class="text-2xl text-yellow-400 fa-mobile-button"></i>
+          </div>
+
+          <h1 class="px-4 py-2 text-3xl font-medium text-white hover-underline-animation">
+            Mobile Development
+          </h1>
+          <p class="px-4 text-sm text-slate-200 hover-underline-animation">
+            Create an app from your own
+            business for a more proffesional
+            business performance.
+          </p>
+
+        </div>
+
+        <!-- Card End -->
+      </div>
+
+    </div>
+
+  </main>
+
+  <section class="px-4 py-10 mt-28 sm:mt-2" id="portofolio">
+    <h1 class="py-2 pt-6 text-2xl font-semibold text-white">
+      My Best Selected PortoFolio
+    </h1>
+    <p class="text-xs sm:text-base text-slate-200">
+      The following are the best portofolio during
+      the career path as a freelancer
+    </p>
+
+    <!-- Card Porto Start For Smartphone -->
+    <div class="py-5 swiper mySwiper sm:hidden">
+      <div class="swiper-wrapper">
+
+        <!-- Snakers Store Start -->
+        <div class=" swiper-slide aspect-square">
+          <div class="flex justify-center ">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#!">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/landing-06.png" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-xl font-medium text-white hover-underline-animation">
+                    Sneakers Store App
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Mobile Apps Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Snakers Store End -->
+
+        <!-- Travel Card Start -->
+        <div class=" swiper-slide aspect-square">
+          <div class="flex justify-center">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#!">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/landing-07.png" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-xl font-medium text-white hover-underline-animation">
+                    Travel Mobile App
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Mobile Apps Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Travel Card End -->
+
+        <!-- Real Estate Card Start -->
+        <div class=" swiper-slide aspect-square">
+          <div class="flex justify-center">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/landing-08.png" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-base font-medium text-white hover-underline-animation">
+                    Real Estate Landing Page
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Web Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Real Estate Card End -->
+
+        <!-- Coffe Shop Card Start -->
+        <div class=" swiper-slide aspect-square">
+          <div class="flex justify-center">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#!">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/landing-09.png" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-base font-medium text-white hover-underline-animation">
+                    Coffe Shop Landing Page
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Web Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Coffe Shop Card Start -->
+
+        <!-- Hotel Booking Card Start -->
+        <div class=" swiper-slide aspect-square">
+          <div class="flex justify-center">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#!">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/hotel.jpg" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-base font-medium text-white hover-underline-animation">
+                    Hotel Booking Web
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Web Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hotel Booking Card Start -->
+
+        <!-- Coworking Card Start -->
+        <div class="py-4 swiper-slide aspect-square">
+          <div class="flex justify-center">
+            <div class="bg-gray-900 rounded-lg shadow-lg ">
+              <a href="#!">
+                <img class="duration-500 rounded-t-lg hover:scale-105" src="dist/Images/Porto/co.png" alt="" />
+              </a>
+              <div class="flex justify-between p-6 px-3">
+                <div>
+                  <h5 class="mb-2 text-base font-medium text-white hover-underline-animation">
+                    Coworking Space Website
+                  </h5>
+                  <p class="mb-4 text-xs text-yellow-500">
+                    Web Design
+                  </p>
+                </div>
+                <div class="">
+                  <a href="#" class="flex items-center gap-1 ">
+                    <i class="text-yellow-500 fa-solid fa-book"></i>
+                    <h1 class="text-yellow-500 ">Case Study</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- HCoworkingCard Start -->
+      </div>
+      <div class=" swiper-button-next"></div>
+      <div class=" swiper-button-prev"></div>
+      <div class="mt-10 swiper-pagination"></div>
+    </div>
+    <!-- Card Porto End For Smartphone -->
+
+
+    <!-- Card Porto Start Size Sm-MD -->
+    <div class="items-center justify-center hidden gap-5 px-6 py-4 sm:grid sm:grid-cols-3 md:grid-cols-3">
+
+      <!-- Snearker Store App Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square">
+        <img class="w-full" src="dist/Images/Porto/landing-06.png" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Sneakers Store App
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Mobile Apps Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Sneaker Store App End -->
+
+      <!-- Mobile Apps Design Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square ">
+        <img class="w-full" src="dist/Images/Porto/landing-07.png" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Travel Mobile App
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Mobile Apps Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Apps Design End -->
+
+      <!-- Mobile Apps Design Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square ">
+        <img class="w-full" src="dist/Images/Porto/landing-08.png" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Real Estate Web
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Web Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Apps Design End -->
+
+      <!-- Coffe Shop Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square ">
+        <img class="w-full" src="dist/Images/Porto/landing-09.png" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Coffe Shop Web
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Web Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Coffe Shop End -->
+
+      <!-- Botel Booking Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square ">
+        <img class="w-full" src="dist/Images/Porto/hotel.jpg" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Hotel Booking Web
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Web Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Hotel booking End -->
+
+      <!-- Botel Booking Start -->
+      <div class="block overflow-hidden duration-500 bg-gray-900 rounded shadow-lg hover:scale-110 aspect-square ">
+        <img class="w-full" src="dist/Images/Porto/co.png" alt="Mountain">
+        <div class="flex justify-between p-6 px-3">
+          <div>
+            <h5 class="mb-2 text-lg font-medium text-white hover-underline-animation">
+              Coworking Space Web
+            </h5>
+            <p class="mb-4 text-xs text-yellow-500">
+              Web Design
+            </p>
+          </div>
+          <div class="">
+            <a href="#" class="flex items-center gap-1 ">
+              <i class="text-yellow-500 fa-solid fa-book"></i>
+              <h1 class="text-yellow-500 ">Case Study</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Hotel booking End -->
+
+    </div>
+    <!-- Card Porto End Size Sm-MD -->
+
+  </section>
+  <!-- My Best Selected PortoFolio End -->
+
+  <!-- Testimonial Start -->
+  <section>
+    <div class="px-4 pt-5 bg-gray-900 sm:h-80" id="testimonial">
+      <h1 class="py-4 text-4xl text-yellow-600 hover-underline-animation">Testimonial</h1>
+
+      <div class="grid grid-cols-1 gap-4 py-2 sm:grid-cols-2 md:grid-cols-3">
+
+        <div
+          class="relative block px-4 mt-4 transition-all duration-500 bg-gray-800 rounded-md shadow-md hover:scale-95 hover:bg-purple-600">
+          <div class="absolute sm:-translate-x-1/2 -top-5 sm:left-1/2 -left-2">
+            <img src="dist/Images/Reviews-images/landing-02.png" alt="reviews"
+              class="w-16 h-16 duration-500 bg-white rounded-full hover:rotate-45">
+          </div>
+          <div class="py-4 pt-12">
+            <p class="text-slate-300">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consectetur."</p>
+            <h1 class="text-xl text-yellow-500">Zenitsu</h1>
+            <h4 class="text-slate-400">Ceo Kny</h4>
+          </div>
+        </div>
+
+        <div
+          class="relative block px-4 mt-4 transition-all duration-500 bg-gray-800 rounded-md shadow-md hover:scale-95 hover:bg-purple-600">
+          <div class="absolute sm:-translate-x-1/2 -top-5 sm:left-1/2 -left-2">
+            <img src="dist/Images/Reviews-images/landing-02.png" alt="reviews"
+              class="w-16 h-16 duration-500 bg-white rounded-full hover:rotate-45">
+          </div>
+          <div class="py-4 pt-12">
+            <p class="text-slate-300">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consectetur."</p>
+            <h1 class="text-xl text-yellow-500">Zenitsu</h1>
+            <h4 class="text-slate-400">Ceo Kny</h4>
+          </div>
+        </div>
+
+        <div
+          class="relative block px-4 mt-4 transition-all duration-500 bg-gray-800 rounded-md shadow-md hover:scale-95 hover:bg-purple-600">
+          <div class="absolute sm:-translate-x-1/2 -top-5 sm:left-1/2 -left-2">
+            <img src="dist/Images/Reviews-images/landing-02.png" alt="reviews"
+              class="w-16 h-16 duration-500 bg-white rounded-full hover:rotate-45">
+          </div>
+          <div class="py-4 pt-12">
+            <p class="text-slate-300">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, consectetur."</p>
+            <h1 class="text-xl text-yellow-500">Zenitsu</h1>
+            <h4 class="text-slate-400">Ceo Kny</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> <!-- Testimonial End -->
+
+  <!-- about me start -->
+  <section>
+    <div class="grid items-center justify-between grid-cols-1 px-4 pt-4 sm:grid-cols-2" id="about">
+
+      <div>
+        <h1 class="text-xl font-bold text-white sm:text-4xl">
+          Let's Hire Me And Make The Best Product
+        </h1>
+        <p class="py-2 text-slate-300">Contact me if you are interested in entrusting your
+          work to me, our you can check out my youtube channel
+          to see how i work, thanks
+        </p>
+        <div class="flex items-center gap-4 py-6">
+          <a href="#"
+            class="gap-2 px-4 py-2 text-center border-[1px] border-yellow-500 rounded-full text-yellow-500 hover:bg-yellow-500 hover:text-gray-800 hover:scale-125 duration-500">
+            <i class="fa-brands fa-youtube"></i>
+            Youtube
+          </a>
+          <a href="#" id="contact"
+            class="gap-2 px-4 py-2 text-center text-gray-800 bg-yellow-500 rounded-full hover:bg-gray-800 hover:text-yellow-500 hover:border-[1px] hover:border-yellow-500 hover:scale-125 duration-500">
+            Contac Me
+          </a>
+        </div>
+      </div>
+
+      <div class="self-center px-6 py-5 ">
+        <img src="dist/Images/Hero-Images/landing-01.png" alt="hero"
+          class="duration-500 bg-gray-900 rounded-full w-80 hover:scale-105">
+      </div>
+
+    </div>
+  </section>
+  <!-- about me end -->
+
+  <!-- footer Start -->
+  <footer>
+    <div class="grid items-center justify-between grid-cols-2 gap-2 px-10 py-12 bg-gray-700 sm:grid-cols-4">
+
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="text-xl text-white">Services</h1>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          Ui/UX Design
+        </a>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          Web Dev
+        </a>
+      </div>
+
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="text-xl text-white">About</h1>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          My History
+        </a>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          Blogs
+        </a>
+      </div>
+
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="text-xl text-white">Information</h1>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          Sitemap
+        </a>
+        <a href="#" class="text-slate-400 hover-underline-animation">
+          FAQ
+        </a>
+      </div>
+
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="text-xl text-white">Get it Touch</h1>
+        <p class="text-slate-400 hover-underline-animation">
+          Stay Connected with me and let's know more about
+          my service and more
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- footer End -->
+
+
+  <!-- back to top -->
+  <div class="fixed z-10 bottom-5 right-5">
+    <a href="#" class="p-4 text-xl bg-yellow-600 rounded-full">
+      🔝
+    </a>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="dist/js/main.js"></script>
+</body>
+
+</html>
